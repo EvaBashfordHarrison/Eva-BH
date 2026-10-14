@@ -1,78 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eva Bashford-Harrison</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <!-- Navigation -->
-  <nav class="nav">
-    <div class="logo">EB–H</div>
-    <div class="nav-links">
-      <a href="/index.html">About</a>
-      <a href="/page-brand.html">Brand</a>
-      <a href="/page-code.html">Code</a>
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eva – Designer</title>
+  <meta name="description" content="Brand identity, creative technology, motion design, visual experiences.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="nav" aria-label="Main">
+    <a href="#start" class="is-active">Start</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
   </nav>
 
-  <!-- Hero -->
-   
-  <section class="hero">
-    <h1>
-      Eva Bashford-Harrison<br />
-      Designer, coder, animator.
-    </h1>
-  </section>
+  <main>
 
-<!-- Biography -->
-  <section class="bio">
-    <h2>Biography</h2>
-    <p>
-      Eva is a multi-disciplinary designer in London, UK. A brand thinker that will always push digital ventures, creative coding, automation, and motion design. Graduating from Falmouth University in 2017 she has around 6 years of industry experience at some of the globes nicest and best branding agencies, and is currently a Senior Designer at Design bridge and partners in London, and studying MA Computational Arts at Goldsmiths in London.
-    </p>
-  </section>
-  <hr />
+    <!-- Hero -->
+    <section class="hero" id="start">
+      <h1>Brand identity,<br>creative technology,<br>motion design,<br>visual experiences</h1>
+    </section>
 
-  <!-- Info Grid -->
-  <section class="info-grid">
+    <!-- About -->
+    <section class="about wrap" id="about">
 
-    <div class="column">
-      <h3>Experience</h3>
-
-      <div class="item">
-        <strong>Design bridge and partners</strong><br />
-        Senior Designer – 2023–current
+      <div class="about__block about__bio">
+        <h2 class="label">Biography:</h2>
+        <p>Eva is a multi-disciplinary designer in London, UK. A brand thinker that will always push digital ventures, creative coding, automation, and motion design. Graduating from Falmouth University in 2017 she has around 9 years of industry experience at some of the globes nicest and best branding agencies, and is currently at home at Design Bridge &amp; Partners in London.</p>
       </div>
 
-      <div class="item">
-        <strong>Superunion</strong><br />
-        Designer – 2019–2023
+      <div class="about__block about__clients">
+        <h2 class="label">Notable Clients:</h2>
+        <p class="clients">NASA • GOUSTO • BBC THREE • THREDD • NESPRESSO • VODAFONE • INMARSAT • HSBC</p>
       </div>
-    </div>
 
-    <div class="column">
-      <h3>Awards</h3>
+      <div class="about__block about__experience">
+        <h2 class="label">Experience:</h2>
+        <p>Design Bridge and Partners<br><em>Senior Designer • 2023 - current</em></p>
+        <p>Superunion<br><em>Designer • 2018-2023</em></p>
+      </div>
 
-      <div class="item">BIA Silver – 2023</div>
-      <div class="item">BIA Bronze – 2023</div>
-      <div class="item">D&AD Wood Pencil – 2021</div>
-      <div class="item">Transform Awards MENA Gold – 2021</div>
-      <div class="item">Transform Awards Best In Class – 2021</div>
-      
-    </div>
+      <div class="about__block about__spacer" aria-hidden="true"></div>
 
-    <div class="column">
-      <h3>Features</h3>
+      <div class="about__block about__features">
+        <h2 class="label">Features:</h2>
+        <p>
+          <a href="#">Design Week – BBC Three</a><br>
+          <a href="#">Creative Review – BBC Three</a><br>
+          <a href="#">Monotype Interview – ila Mobile Banking</a>
+        </p>
+      </div>
 
-      <div class="item">Monotype Interview – ila Mobile Banking</div>
-      <div class="item">Creative Review – BBC Three</div>
-      <div class="item">Design Week – BBC Three</div>
-    </div>
+      <div class="about__block about__awards">
+        <h2 class="label">Awards and experience:</h2>
+        <p>
+          Award: BIA Silver – 2023<br>
+          Award: BIA Bronze – 2023<br>
+          Award: D&amp;AD Wood Pencil – 2021<br>
+          Award: Transform Awards MENA Gold – 2021<br>
+          Award: Transform Awards Best In Class – 2021<br>
+          Experience: D&amp;AD Type Design Jury Member 2022
+        </p>
+      </div>
 
-  </section>
+    </section>
 
-  </body>
+    <!-- Projects -->
+    <section class="projects wrap" id="projects">
+      <h2 class="projects__title">Projects</h2>
+
+      <div class="grid">
+
+        <a class="card" href="#">
+          <div class="card__image">
+            <img src="images/tsd-thumb.png" alt="The Despondent Times web app" loading="lazy">
+            <span class="tag tag--yellow">Web App</span>
+            <span class="card__soon">Coming soon</span>
+          </div>
+          <h3 class="card__title">The Despondent Times</h3>
+          <p class="card__text">A moral compass using machine learning and a live news headline API to assess humanities morality</p>
+        </a>
+
+        <a class="card" href="#">
+          <div class="card__image">
+            <img src="images/loop-thumb.png" alt="Loop Tech Talks" loading="lazy">
+            <span class="tag tag--yellow">Web App</span>
+            <span class="card__soon">Coming soon</span>
+          </div>
+          <h3 class="card__title">Loop: Tech Talks 2026</h3>
+          <p class="card__text">Creating a space for inspiring creative technology talks at Design Bridge and Partners. </p>
+        </a>
+
+        <a class="card" href="#">
+          <div class="card__image">
+            <img src="images/glyph-thumb.png" alt="Loop Tech Talks" loading="lazy">
+            <span class="tag tag--yellow">Web App</span>
+            <span class="card__soon">Coming soon</span>
+          </div>
+          <h3 class="card__title">Glypherish</h3>
+          <p class="card__text">The Noun Project API to translate any body of text into individual icons, crossing language barries through visual messaging. n</p>
+        </a>
+
+        <a class="card" href="#">
+          <div class="card__image">
+            <img src="images/image-8.jpg" alt="Gousto" loading="lazy">
+            <span class="tag tag--cyan">Brand Identity</span>
+            <span class="card__soon">Coming soon</span>
+          </div>
+          <h3 class="card__title">GOUSTO</h3>
+          <p class="card__text">Do it with Gousto.</p>
+        </a>
+
+        <a class="card" href="#">
+          <div class="card__image">
+            <img src="images/image-26.jpg" alt="Nasa Artemis" loading="lazy">
+            <span class="tag tag--cyan">Brand Identity</span>
+            <span class="card__soon">Coming soon</span>
+          </div>
+          <h3 class="card__title">NASA – ARTEMIS</h3>
+          <p class="card__text">Defining the Artemis generation.</p>
+        </a>
+
+        <a class="card" href="#">
+          <div class="card__image">
+            <img src="images/image-34.jpg" alt="Thredd" loading="lazy">
+            <span class="tag tag--cyan">Brand Identity</span>
+            <span class="card__soon">Coming soon</span>
+          </div>
+          <h3 class="card__title">Thredd</h3>
+          <p class="card__text">True partnership in fintech. </p>
+        </a>
+
+        <a class="card" href="#">
+          <div class="card__image">
+            <img src="images/image-14.jpg" alt="BBC Three" loading="lazy">
+            <span class="tag tag--cyan">Brand Identity</span>
+            <span class="card__soon">Coming soon</span>
+          </div>
+          <h3 class="card__title">BBC Three</h3>
+          <p class="card__text">The Three Hands.</p>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact wrap" id="contact">
+      <h2 class="contact__title">Contact</h2>
+      <p><a href="mailto:evabhgd@gmail.com">evabhgd@gmail.com</a></p>
+      <p>instagram: <a href="https://www.instagram.com/___ebh" target="_blank" rel="noopener">@___ebh</a></p>
+    </section>
+
+  </main>
+
+</body>
 </html>
